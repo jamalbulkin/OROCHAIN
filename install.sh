@@ -44,7 +44,7 @@ echo "🔐 Password: $PASSWORD"
 
 # Buat file docker-compose.yaml
 cat <<EOF > docker-compose.yaml
-version: "3.8"
+version: "3.3"
 services:
   chromium:
     image: lscr.io/linuxserver/chromium:latest
